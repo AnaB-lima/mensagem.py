@@ -1,5 +1,5 @@
 # Solicita as três notas do aluno
-nota1 = float(input("Digite a primeira nota: "))
+nota1 = float(input("Digite a primeira nota: ")) 
 nota2 = float(input("Digite a segunda nota: "))
 nota3 = float(input("Digite a terceira nota: "))
 
@@ -24,4 +24,5 @@ if media >= 7.0:
 elif media >= 5.0:
     print("Situação: Em recuperação. 📚")
 else:
+
     print("Situação: Reprovado. 😔")
